@@ -1,0 +1,16 @@
+{
+  "name": "proxy_serv",
+  "version": "1.0.0",
+  "description": "A simple proxy server for Clarifai API",
+  "main": "proxy.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon proxy.mjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.7"
+  }
+}
